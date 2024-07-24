@@ -62,3 +62,37 @@ body.dark-mode {
 body.dark-mode .p {
     color: #ffffff;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .c-container {
+        width: 80px;
+        height: 200px;
+    }
+
+    #circle {
+        height: 70px;
+        width: 70px;
+    }
+
+    .p {
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    .dark {
+        transform: translateY(0px);
+    }
+
+    .light {
+        transform: translateY(130px);
+    }
+}
